@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La mia prima pagina</title>
+</head>
+<body>
+    <a href="#footer">Scorri giù</a>
+   <h1>Beatrice Vanvitelli</h1> 
+   <h2>betricevanvitelli1@gmail.com</h2>
+   <main>
+    <a href="#">
+        <img src="fotoprofilo.jpg"/>
+       </a>
+   <p>
+    Mi chiamo Beatrice Vanvitelli, ho 28 anni, ho un diploma scientifico e da poco ho conseguito la laurea all'Accademia di Belle Arti di Roma. Da sempre mi affascina il campo del Digital come Graphic Design; dopo il mio percorso accademico ho iniziato una magistrale in Art Direction che però per motivi personali si è rivelato troppo lungo e poco pratico, così mi sono interessata al campo del UX/UI Design.
+    Conoscendo il mondo Epicode mi sono resa conto che volevo provare a reinventarmi, iniziando un percorso più pratico, meno tradizionale, innovativo e soprattutto completo.  
+   </p>
+   <p>
+    Amo viaggiare, leggere e adoro il mondo del gaming. Ho una forte passione per il cinema, per l'illustrazione e la fotografia!
+   </p>
+   </main>
+   <a href="https://www.linkedin.com/in/beatrice-vanvitelli-81926a252/">Linkedin</a>
+   <p>
+    <cite>Tale è il corso degli <a href="#"> eventi che muovono le ruote del mondo, che sono spesso le piccole mani </a> ad agire per necessità, mentre gli occhi dei grandi sono rivolti altrove.
+        (Elrond - LOTR)</cite>
+   </p>
+   <div>
+   <ul>
+    <h3>Le mie competenze:</h3>
+    <li>Elaborazioni digitali delle immagini</li>
+    <li>Adattabilità</li>
+    <li>Problem-solving</li>
+    <li>Creatività</li>
+   </ul>
+   <ol>
+    <h3>Competenze da acquisire:</h3>
+    <li>HMTL</li>
+    <li>CSS</li>
+    <li>JAVASCRIPT</li>
+   </ol>
+   </div>
+   <footer id="footer">&copy; Copyright [Beatrice Vanvitelli]
+   </footer>
+</body>
+</html>
