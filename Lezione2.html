@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sviluppo di una pagina web - Blog Epicode</title>
+    <meta name="description" content="Primi passi operativi per creare un modello di pagina HTML per un post. Scopri come iniziare in modo facile">
+</head>
+<body>
+<img src="assets/img/logo.svg" alt="logo_Epicode"><br><br><br>
+<header>
+<h1>Epicode - il blog dei developers</h1>
+</header>
+<nav>
+    <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Articoli</a></li>
+        <li><a href="#">Lavora con noi</a></li>
+    </ul>
+</nav>
+<main>
+    <article>
+        <h2>Come creare un template per i post</h2>
+        <h4><i>di Mario Rossi</i>- pubblicato il 25-10-2020</h4><br><br><br>
+        <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da applicare a tutte le pagine</p>
+        <p>Le varie aree saranno quindi suddivise in:</p>
+        <ul>
+            <li>Contenuti di intestazione del tag <header></li>
+            <li>Contenuti centrali variabili del tag <main> (corpo principale)</li>
+            <li>Contenuti di fine pagina comuni, da inserire nel tag <footer></li>
+        </ul>
+        <p>Formattazione del codice</p>
+        <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS. Perciò i passi saranno:</p>
+        <ol>
+            <li>Progettare il muarkup assenando ad ogni specifico testo il tag appropriato</li>
+            <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+            <li>Applicare gli stili CSS</li>
+        </ol>
+<p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiumgere la diffusione pressoché totale.</p>
+<table>
+    <caption><br>
+        <th>Diffusione dei CSS</th>
+    </caption>
+    <thead>
+        <tr>
+    </thead>
+    <tbody>
+        <th>Anno</th>
+            <td>2000</td>
+            <td>2002</td>
+            <td>2004</td>
+            <td>2008</td>
+            <td>2012</td>            
+        </tbody>
+        <tbody>
+    <th>% di utilizo</th>
+        <td>20%</td>
+        <td>35%</td>
+        <td>45%</td>
+        <td>80%</td>
+        <td>100%</td>
+      </tbody>
+      <tbody>
+        <th>Supporto browsers</th>
+            <td>17%</td>
+            <td>22%</td>
+            <td>42%</td>
+            <td>51%</td>
+            <td>76%</td>
+        </tbody>
+    </tr>
+</table>
+<p>Un test di validazione potrà essere fatto tramite il tool <a href="https://devskiller.com/it/test-di-codifica-abilita/html/"> online dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/PlxWf493en4?si=ZkvwyDoN0BUnk1je" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</main>
+</article>
+<div>
+    <h3>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</h3>
+    <form action="#" method="post">
+        <fieldset>
+            <label for="email">Inserisci l'email</label>
+            <input type="email" id="email" name="email" required>
+            <input type="submit" value="Iscriviti!">
+        </fieldset>
+        </form>
+</div>
+<section>
+    <fieldset>
+        <h3>Articoli correlati</h3>
+        <ul>
+            <li><a href="#">Validare il codice HTML</a></li>
+            <li>Categoria: develop</li>
+            <li>Data: 18-9-2020</li>
+        </ul>
+        <br>
+        <ul>
+            <li><a href="#">Correggere la sintassi</a></li>
+            <li>Categoria: develop</li>
+            <li>Data: 16-9-2020</li>
+        </ul>
+        <br>
+        <ul>
+            <li><a href="#">Meno Kb nella pagina</a></li>
+            <li>Categoria: ottimizzazione</li>
+            <li>Data: 30-9-2020</li>
+        </ul>
+    </fieldset>
+</section>
+<footer id="footer">
+    <p>&copy; Blog Epicode 2023</p>
+    <p>Testata online di Mario Rossi, registrata con prt. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233.</p>
+    <p>Per info contattaci via email:<a href="mailto:abc@example.com">Email</a></p>
+</footer>
+</body>
+</html>
