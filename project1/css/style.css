@@ -1,0 +1,153 @@
+/* BODY */
+body {
+    height: 100%;
+    margin: 0;
+    font: #393d41;
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* HEADER */
+
+#black-banner {
+    background-color: black;
+    text-align: left;
+    padding: 10px;
+}
+
+.logo {
+    text-align: left;
+    width: 30%;
+}
+
+header {
+    margin: 0%;
+    background-image: url('../images/banner.jpg');
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #25a2c3;
+    line-height: 1.5;
+    font-weight: bold;
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+    color: black;
+}
+
+.red-script {
+    margin: 8%;
+    background-color: red;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    width: 18%;
+}
+
+.red-script p {
+    color:white;
+    font-size: 16px;
+}
+
+main .cerchio img {
+    border-radius: 120px;
+    margin-left: 15%;
+}
+
+main .sezione1  h3{
+    color: #25a2c3;
+    
+}
+
+main .sezione1 li{
+    list-style-type: none;
+    text-align: left
+}
+
+main .sezione1 li strong {
+    color:#25a2c3;
+}
+
+#banner2 {
+    margin-top: 20%;
+    background-color: red;
+    height: 200px;
+}
+
+
+#banner2 h2 {
+    text-align: center;
+}
+
+#banner2 p, h4 {
+    text-align: center;
+    font-size: 15pxS;
+    line-height: 1;
+    margin: 0.5%;
+}
+
+.sezione2 p {
+    font-size: 15px;
+    line-height: 1;
+    margin: 0.5%;
+}
+
+section h2, p, h4 {
+    color: rgb(255, 255, 255);
+}
+
+.quadrato {
+    margin-top: 10%;
+    overflow:visible;
+    float: left;
+    margin-right: 100px;
+    justify-content: space-around;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+}
+
+.quadrato h4 {
+    color: #25a2c3;
+}
+
+.quadrato p {
+    color:black;
+}
+
+/* FOOTER */
+
+#contatti h1 {
+    color: white;
+    text-align: center;
+}
+
+footer #contenitoreblu {
+    background-color: #25a2c3;
+    height: 300px;
+    padding: 20px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    align-content: baseline;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+#contenitoreblu p, a, i {
+    text-align: center;
+}
+
+.copyright p {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
