@@ -229,9 +229,16 @@ console.log(me);
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let myArray = [];
-for (let i = 1; i <= 100; i++) {
-  myArray.push(i);
-}
+myArray.push(1);
+myArray.push(2);
+myArray.push(3);
+myArray.push(4);
+myArray.push(5);
+myArray.push(6);
+myArray.push(7);
+myArray.push(8);
+myArray.push(9);
+myArray.push(10);
 console.log(myArray);
 
 /* ESERCIZIO 15
