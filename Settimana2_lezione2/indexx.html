@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizi js</title>
+</head>
+<body>
+
+  <script>
+    let numeroDiverso = 20;
+    
+    if (numeroDiverso !== 5) {
+      console.log("not equal");
+    }
+  </script>
+
+<script>
+let x;
+x = 10;
+
+if (x%5==0) {
+  console.log("divisibile per 5")
+}
+</script>
+<script>
+let num1 = 2; 
+let num2 = 6; 
+
+if (num1 == 8) {
+  console.log("Il suo valore è 8");
+} else if (num1 + num2 == 8) {
+  console.log("num1 + num2 = 8");
+} else if (num1 - num2 == 8) {
+  console.log("num1 - num2 = 8");
+}
+</script>
+
+<script>
+let totalShoppingCart = 55;
+const spedizione = 10;
+
+if (totalShoppingCart > 50) {
+  console.log("Totale spesa: " + totalShoppingCart + "€ (spedizione gratuita)");
+} else {
+  console.log("Totale spesa: " + totalShoppingCart + "€ + " + spedizione + "€ di spedizione");
+}
+
+</script>
+
+<script>
+let valore = 42;
+
+if (typeof valore === 'number') {
+    console.log("Il valore fornito è un numero.");
+} else {
+    console.log("Il valore fornito non è un numero.");
+}
+</script>
+
+<script>
+  let num1 = 1;
+  let num2 = 2;
+  let num3 = 3;
+
+  if ((num1 >= num2) && (num1 >= num3)) {
+    if (num2 >= num3) {
+      console.log(num1, num2, num3);
+    } else {
+      console.log(num1, num3, num2);
+    }
+  } else if ((num2 >= num1) && (num2 >= num3)) {
+    if (num1 >= num3) {
+      console.log(num2, num1, num3);
+    } else {
+      console.log(num2, num3, num1);
+    }
+  } else {
+    if (num1 >= num2) {
+      console.log(num3, num1, num2);
+    } else {
+      console.log(num3, num2, num1);
+    }
+  }
+</script>
+
+<script> 
+  if (x % 2 === 0) {
+    console.log("x è un numero pari");
+  } else {
+    console.log("x non è un numero pari");
+  }
+  </script>
+
+<script>
+let val = 7;
+
+if (val <10) {
+  console.log("Meno di 10");
+} else if (val < 5) {
+  console.log("Meno di 5");
+} else {
+  console.log("Uguale a 10 o maggiore");
+}
+</script>
+
+<script>
+  const me = {
+  name: 'John',
+  lastName: 'Doe',
+  skills: ['javascript', 'html', 'css'],
+}
+city = 'Toronto';
+
+console.log(me);
+</script>
+
+<script>
+const me = {
+  name: 'John',
+  lastName: 'Doe',
+  skills: ['javascript', 'html', 'css'],
+  city = 'Toronto';
+}
+delete me.lastName;
+
+console.log(me);
+</script>
+
+<script>
+let myArray = [];
+for (let i = 1; i <= 100; i++) {
+  myArray.push(i);
+}
+console.log(myArray);
+</script>
+
+<script>
+
+</script>
+
+</body>
+</html>
