@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    
+    <script>
+   function concatena(str1, str2) {
+    let primoSubstring = str1.slice(0, 2);
+    let secondoSubstring = str2.slice(-3);
+    let risultato = primoSubstring + secondoSubstring;
+    risultato = risultato.toUpperCase();
+    console.log(risultato);
+}
+
+concatena("Hello", "World!");
+    </script>
+
+    <script>
+    function finalArr() {
+     let arr = [];
+     for (let i = 0; i < 10; i++) {
+       arr[i] = Math.ceil(Math.random() * 100);
+  }
+  return arr;
+}
+ console.log(finalArr());
+    </script>
+    
+
+    <script>
+        
+    let num = [2,3,5,6,8,12,13]
+
+    function numPari(num) {  
+     return num % 2 === 0
+}
+  let numeri_pari = num.filter(numPari)
+  console.log(numeri_pari);
+    </script>
+
+    <script>
+    function sommaArray(array) {
+    let somma = 0;
+    array.forEach(function(numero) {
+    somma += numero;
+  });
+  return somma;
+}
+  let numeri = [1, 5, 7, 4, 5];
+  console.log("La somma degli elementi dell'array è:", sommaArray(numeri));
+    </script>
+
+<div id="risultato"></div>
+
+<script>
+    let numbers = [3, 4, 5];
+let totale = numbers.reduce(somma1);
+function somma1(a, b) {
+    return a + b;
+}
+let totale2 = numbers.reduce(somma1)
+console.log(totale2)
+</script>
+
+<script>
+    function arrIncr(arr, n) {
+  let arrIncr2 = arr.map(function(numero) {
+    return numero + n;
+  });
+  return arrIncr2;
+}
+
+let arr = [1, 3, 5, 4, 11];
+let n = 10;
+let arrIncrementato = arrIncr(arr, n);
+
+console.log(arr);
+console.log(arrIncrementato);
+</script>
+
+<script>
+    function myFun(arrayStringhe) {
+  const lunghezze = arrayStringhe.map(stringa => stringa.length);
+  return lunghezze
+}
+const prova1 = ["Epicode", "is", "great"];
+console.log(myFun(prova1));
+
+</script>
+</body>
+</html>
