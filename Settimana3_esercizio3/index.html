@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo_list">
+            <div class="row">
+                <input type="text" id="inputbox" placeholder="Aggiungi una task qui">
+                <button onclick="addTask()">Crea</button>
+                <div id="phrasesContainer"></div>
+            </div>
+            <ul id="listContainer">
+                <li class="checked">Task1</li>
+                <li>Task2</li>
+                <li>Task3</li>
+            </ul>
+            <div class="controls"></div>
+            <button class="delete" id="removeTask1"><i class="fas fa-trash"></i></button>
+        </div>
+    </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
