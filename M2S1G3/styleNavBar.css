@@ -1,0 +1,37 @@
+.navBar {
+    background-color: rgb(252, 227, 177);
+    width: 80%; 
+    border-radius: 30px; 
+    box-sizing: border-box; 
+    margin: auto;
+    overflow: hidden;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.navBar ul {
+    list-style: none; 
+    padding: 0; 
+    display: flex; 
+}
+
+.navBar ul li {
+    padding: 10px;
+}
+
+.navBar ul li img {
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: auto; 
+}
+
+.navBar .one {
+    background-color: rgb(230, 177, 80);
+    flex-grow: 1; 
+    cursor: pointer;
+    padding: auto; 
+    border-radius: 20px;
+    margin: 10px 5px; 
+}
