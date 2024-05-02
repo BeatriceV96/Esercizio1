@@ -1,0 +1,6 @@
+// mixin per titolo grande
+
+@mixin title-big {
+    font-size: $font-size-titolo;
+    font-weight: bold;
+}

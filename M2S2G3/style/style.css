@@ -1,0 +1,85 @@
+@import 'partials/mixins.css';
+header {
+  background-color: #640fc5; /* Applica il colore $bg_hero all'intero header */
+  color: #f4f4f4 colore-bottoni #0e6cff, #ff8700, #4caf50; /* Applica il colore del testo definito dalla variabile */
+}
+
+.padding-block-sm {
+  padding-block: 4px;
+}
+
+.padding-block-normal {
+  padding-block: 8px;
+}
+
+.padding-block-lg {
+  padding-block: 16px;
+}
+
+.padding-block-xl {
+  padding-block: 24px;
+}
+
+.padding-block-xxl {
+  padding-block: 32px;
+}
+
+.padding-inline-sm {
+  padding-inline: 4px;
+}
+
+.padding-inline-normal {
+  padding-inline: 8px;
+}
+
+.padding-inline-lg {
+  padding-inline: 16px;
+}
+
+.padding-inline-xl {
+  padding-inline: 24px;
+}
+
+.padding-inline-xxl {
+  padding-inline: 32px;
+}
+
+.margin-block-sm {
+  margin-block: 4px;
+}
+
+.margin-block-normal {
+  margin-block: 8px;
+}
+
+.margin-block-lg {
+  margin-block: 16px;
+}
+
+.margin-block-xl {
+  margin-block: 24px;
+}
+
+.margin-block-xxl {
+  margin-block: 32px;
+}
+
+.margin-inline-sm {
+  margin-inline: 4px;
+}
+
+.margin-inline-normal {
+  margin-inline: 8px;
+}
+
+.margin-inline-lg {
+  margin-inline: 16px;
+}
+
+.margin-inline-xl {
+  margin-inline: 24px;
+}
+
+.margin-inline-xxl {
+  margin-inline: 32px;
+}/*# sourceMappingURL=style.css.map */

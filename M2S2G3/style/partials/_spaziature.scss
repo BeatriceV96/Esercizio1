@@ -1,0 +1,34 @@
+// each?
+
+//padding
+
+@each $direction in (block, inline) {
+    @each $size in (sm, normal, lg, xl, xxl) {
+        .padding-#{$direction}-#{$size} {
+            padding-#{$direction}: map-get((
+                sm: 4px,
+                normal: 8px,
+                lg: 16px,
+                xl: 24px,
+                xxl: 32px,
+            ), $size);
+        }
+    }
+}
+
+
+//margin
+
+@each $direction in (block, inline) {
+    @each $size in (sm, normal, lg, xl, xxl) {
+        .margin-#{$direction}-#{$size} {
+            margin-#{$direction}: map-get((
+                sm: 4px,
+                normal: 8px,
+                lg: 16px,
+                xl: 24px,
+                xxl: 32px,
+            ), $size);
+        }
+    }
+}
