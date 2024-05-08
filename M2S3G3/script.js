@@ -1,14 +1,19 @@
 document.addEventListener('DOMContentLoaded', () => {
+    console.log('DOM completamente caricato');
+
     const bookListContainer = document.getElementById('bookList');
+    console.log('Ricerca del container dei libri completata');
 
     fetch('https://striveschool-api.herokuapp.com/books')
         .then(response => {
+            console.log('Richiesta GET completata');
             if (!response.ok) {
                 throw new Error('Errore nella richiesta!');
             }
             return response.json();
         })
         .then(books => {
+            console.log('Risposta JSON ottenuta:', books);
             books.forEach(book => {
                 const card = document.createElement('div');
                 card.classList.add('card');
@@ -36,6 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 bookListContainer.appendChild(card);
             });
+            console.log('Rendering dei libri completato');
         })
         .catch(error => {
             console.error('Errore durante il recupero dei libri:', error.message);
