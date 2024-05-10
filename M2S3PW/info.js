@@ -69,9 +69,44 @@ const populateProductCard = (product) => {
   </div>
   `;
   
+  const editForm = productCard.querySelector('#edit-form');
+  editForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const editedProduct = {
+      name: document.getElementById('name').value,
+      description: document.getElementById('description').value,
+      brand: document.getElementById('brand').value,
+      price: document.getElementById('price').value
+    };
+    saveEditedProduct(product._id, editedProduct);
+  });
+
   const editButton = productCard.querySelector('.edit-btn');
   editButton.addEventListener('click', () => {
     const editFormContainer = productCard.querySelector('#edit-form-container');
     editFormContainer.style.display = 'block';
+  });
+};
+
+const saveEditedProduct = (productId, editedProduct) => {
+  fetch(`https://striveschool-api.herokuapp.com/api/product/${productId}`, {
+    method: 'PUT',
+    headers: {
+      Authorization:
+        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjNkY2ZhMzgxODQ0MjAwMTUzNzU4NzciLCJpYXQiOjE3MTUzMjY4ODMsImV4cCI6MTcxNjUzNjQ4M30.uYElmLCgaztX3S4T3C__yta-ZlB60r8b4X7_DY10py0",
+      "Content-type": "application/json",
+    },
+    body: JSON.stringify(editedProduct)
+  })
+  .then(response => {
+    if (response.ok) {
+      
+      getProductInfo(productId);
+    } else {
+      throw new Error("Errore nella modifica del prodotto");
+    }
+  })
+  .catch(error => {
+    console.error("ERRORE:", error);
   });
 };
